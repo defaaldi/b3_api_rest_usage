@@ -1,12 +1,11 @@
 import './App.css'
-//import { ApiPokemonCard } from './components/ApiPokemonCard'
-import { CatGalleryFetch } from './components/CatGalleryFetch'
+import { ApiPokemonCard } from './components/ApiPokemonCard'
 
 function App() {
   return (
     <div>
       <h1>
-      < CatGalleryFetch />
+      < ApiPokemonCard/>
       </h1>
     </div>    
   )
