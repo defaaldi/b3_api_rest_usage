@@ -1,12 +1,14 @@
 import './App.css'
-import { ApiCoffeeCarruselBasic } from './components/ApiCoffeeCarruselBasic'
-
+import { ApiPokemonCard } from './components/ApiPokemonCard'
 
 function App() {
   return (
-      <div>
-        <  ApiCoffeeCarruselBasic />
-      </div>
+    <div>
+      <h1>
+      < ApiPokemonCard/>
+      </h1>
+    </div>
+    
   )
 }
 export default App

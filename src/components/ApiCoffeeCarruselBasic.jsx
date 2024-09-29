@@ -11,8 +11,7 @@ export const ApiCoffeeCarruselBasic = () => {
 
                 const response = await axios.get('https://api.sampleapis.com/coffee/hot');
                 setCoffeeList(response.data);
-                console.log(coffeeList);
-
+                
             } catch (error) {
                 console.log('Error al recuperar los datos de la API', error);
             }
